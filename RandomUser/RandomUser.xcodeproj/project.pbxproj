@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F6A1BB7260FE3BF00300390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1BB6260FE3BF00300390 /* AppDelegate.swift */; };
-		6F6A1BBB260FE3BF00300390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1BBA260FE3BF00300390 /* ViewController.swift */; };
+		6F6A1BBB260FE3BF00300390 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1BBA260FE3BF00300390 /* ProfileViewController.swift */; };
 		6F6A1BBE260FE3BF00300390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A1BBC260FE3BF00300390 /* Main.storyboard */; };
 		6F6A1BC0260FE3C200300390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A1BBF260FE3C200300390 /* Assets.xcassets */; };
 		6F6A1BC3260FE3C200300390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A1BC1260FE3C200300390 /* LaunchScreen.storyboard */; };
@@ -26,6 +26,11 @@
 		6F6A1C312610197500300390 /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C302610197500300390 /* Street.swift */; };
 		6F6A1C3926101CFD00300390 /* GetRandomUserResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A1C3826101CFD00300390 /* GetRandomUserResponse.json */; };
 		6F6A1C4126101DBD00300390 /* RandomUserTests+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C4026101DBD00300390 /* RandomUserTests+Data.swift */; };
+		6F6A1CCD261059D900300390 /* RandomUser+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CCC261059D900300390 /* RandomUser+UILabel.swift */; };
+		6F6A1CD2261059E800300390 /* RandomUser+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CD1261059E800300390 /* RandomUser+UIStackView.swift */; };
+		6F6A1CD726105A2600300390 /* RandomUser+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CD626105A2600300390 /* RandomUser+UIImageView.swift */; };
+		6F6A1CDC26105DB300300390 /* RandomUser+UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CDB26105DB300300390 /* RandomUser+UIStoryboard.swift */; };
+		6F6A1CE426105E4C00300390 /* ProfileViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CE326105E4C00300390 /* ProfileViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +53,7 @@
 /* Begin PBXFileReference section */
 		6F6A1BB3260FE3BF00300390 /* RandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6A1BB6260FE3BF00300390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F6A1BBA260FE3BF00300390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F6A1BBA260FE3BF00300390 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6F6A1BBD260FE3BF00300390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F6A1BBF260FE3C200300390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F6A1BC2260FE3C200300390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,6 +76,11 @@
 		6F6A1C302610197500300390 /* Street.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
 		6F6A1C3826101CFD00300390 /* GetRandomUserResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetRandomUserResponse.json; sourceTree = "<group>"; };
 		6F6A1C4026101DBD00300390 /* RandomUserTests+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUserTests+Data.swift"; sourceTree = "<group>"; };
+		6F6A1CCC261059D900300390 /* RandomUser+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+UILabel.swift"; sourceTree = "<group>"; };
+		6F6A1CD1261059E800300390 /* RandomUser+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+UIStackView.swift"; sourceTree = "<group>"; };
+		6F6A1CD626105A2600300390 /* RandomUser+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+UIImageView.swift"; sourceTree = "<group>"; };
+		6F6A1CDB26105DB300300390 /* RandomUser+UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+UIStoryboard.swift"; sourceTree = "<group>"; };
+		6F6A1CE326105E4C00300390 /* ProfileViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +176,7 @@
 		6F6A1BF3260FE6FD00300390 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6F6A1BBA260FE3BF00300390 /* ViewController.swift */,
+				6F6A1BBA260FE3BF00300390 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -200,6 +210,10 @@
 			isa = PBXGroup;
 			children = (
 				6F6A1C18261018F000300390 /* RandomUser+String.swift */,
+				6F6A1CCC261059D900300390 /* RandomUser+UILabel.swift */,
+				6F6A1CD626105A2600300390 /* RandomUser+UIImageView.swift */,
+				6F6A1CD1261059E800300390 /* RandomUser+UIStackView.swift */,
+				6F6A1CDB26105DB300300390 /* RandomUser+UIStoryboard.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -245,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				6F6A1BCD260FE3C200300390 /* RandomUserTests.swift */,
+				6F6A1CE326105E4C00300390 /* ProfileViewControllerTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -382,16 +397,20 @@
 			files = (
 				6F6A1C1E2610190900300390 /* Address.swift in Sources */,
 				6F6A1C14261000B400300390 /* API+RandomUser.swift in Sources */,
+				6F6A1CCD261059D900300390 /* RandomUser+UILabel.swift in Sources */,
 				6F6A1C0F260FFFBA00300390 /* APIManager.swift in Sources */,
-				6F6A1BBB260FE3BF00300390 /* ViewController.swift in Sources */,
+				6F6A1BBB260FE3BF00300390 /* ProfileViewController.swift in Sources */,
 				6F6A1BB7260FE3BF00300390 /* AppDelegate.swift in Sources */,
 				6F6A1C232610193200300390 /* FullName.swift in Sources */,
+				6F6A1CDC26105DB300300390 /* RandomUser+UIStoryboard.swift in Sources */,
 				6F6A1C312610197500300390 /* Street.swift in Sources */,
 				6F6A1C19261018F000300390 /* RandomUser+String.swift in Sources */,
 				6F6A1C292610196200300390 /* RandomUserAPI.swift in Sources */,
 				6F6A1C01260FFE2900300390 /* API.swift in Sources */,
 				6F6A1BF9260FE7FF00300390 /* RandomUser.swift in Sources */,
 				6F6A1C07260FFFA600300390 /* APIManager+RandomUser.swift in Sources */,
+				6F6A1CD726105A2600300390 /* RandomUser+UIImageView.swift in Sources */,
+				6F6A1CD2261059E800300390 /* RandomUser+UIStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +420,7 @@
 			files = (
 				6F6A1BCE260FE3C200300390 /* RandomUserTests.swift in Sources */,
 				6F6A1C4126101DBD00300390 /* RandomUserTests+Data.swift in Sources */,
+				6F6A1CE426105E4C00300390 /* ProfileViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
