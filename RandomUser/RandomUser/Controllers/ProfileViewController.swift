@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MapKit
 
 class ProfileViewController: UIViewController {
     
@@ -41,12 +42,19 @@ class ProfileViewController: UIViewController {
     var countryLabel: UILabel = UILabel.createField()
     var postcodeLabel: UILabel = UILabel.createField()
     
+    var coordinatesLabel: UILabel = UILabel.createField()
+    var mapImageView = UIImageView()
+    
     //------------------------------------
     // MARK: - VC Life Cycle
     //------------------------------------
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mapImageView.heightAnchor.constraint(equalToConstant: mainStackView.frame.width).isActive = true
+        view.addSubview(mapImageView)
+        
         createLayout()
         fetchUser()
     }
@@ -76,6 +84,7 @@ class ProfileViewController: UIViewController {
             self?.stateLabel.text = UILabel.padding + user.location.state
             self?.countryLabel.text = UILabel.padding + user.location.country
             self?.postcodeLabel.text = UILabel.padding + user.location.postcode
+            self?.coordinatesLabel.text = UILabel.padding + "\(user.location.coordinates?.description ?? "No coordinates")"
         }, completion: nil)
         
     }
@@ -133,6 +142,11 @@ class ProfileViewController: UIViewController {
             UIStackView.create(arrangedSubviews: [
                 UILabel.createSmallHeader(with: "Postcode"),
                 postcodeLabel
+            ]),
+            UIStackView.create(arrangedSubviews: [
+                UILabel.createSmallHeader(with: "Location"),
+                coordinatesLabel,
+                mapImageView
             ])
         ])
     }
@@ -141,11 +155,20 @@ class ProfileViewController: UIViewController {
         APIManager.shared.getOneRandomUser { [weak self] (user) in
             DispatchQueue.main.async {
                 self?.updateUI(with: user)
+                if let coordinates = user.location.coordinates {
+                    coordinates.getSnapshot(completion: { image in
+                        DispatchQueue.main.async {
+                            self?.mapImageView.image = image
+                        }
+                    })
+                }
             }
         } onError: { (error) in
             print(error.localizedDescription)
         }
     }
+    
+    
     
     //------------------------------------
     // MARK: - IBActions

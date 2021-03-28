@@ -31,6 +31,7 @@
 		6F6A1CD726105A2600300390 /* RandomUser+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CD626105A2600300390 /* RandomUser+UIImageView.swift */; };
 		6F6A1CDC26105DB300300390 /* RandomUser+UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CDB26105DB300300390 /* RandomUser+UIStoryboard.swift */; };
 		6F6A1CE426105E4C00300390 /* ProfileViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CE326105E4C00300390 /* ProfileViewControllerTests.swift */; };
+		6F6A1CE926106C2B00300390 /* RandomUser+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1CE826106C2B00300390 /* RandomUser+CoreLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		6F6A1CD626105A2600300390 /* RandomUser+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+UIImageView.swift"; sourceTree = "<group>"; };
 		6F6A1CDB26105DB300300390 /* RandomUser+UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+UIStoryboard.swift"; sourceTree = "<group>"; };
 		6F6A1CE326105E4C00300390 /* ProfileViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewControllerTests.swift; sourceTree = "<group>"; };
+		6F6A1CE826106C2B00300390 /* RandomUser+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+CoreLocation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				6F6A1CD626105A2600300390 /* RandomUser+UIImageView.swift */,
 				6F6A1CD1261059E800300390 /* RandomUser+UIStackView.swift */,
 				6F6A1CDB26105DB300300390 /* RandomUser+UIStoryboard.swift */,
+				6F6A1CE826106C2B00300390 /* RandomUser+CoreLocation.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			files = (
 				6F6A1C1E2610190900300390 /* Address.swift in Sources */,
 				6F6A1C14261000B400300390 /* API+RandomUser.swift in Sources */,
+				6F6A1CE926106C2B00300390 /* RandomUser+CoreLocation.swift in Sources */,
 				6F6A1CCD261059D900300390 /* RandomUser+UILabel.swift in Sources */,
 				6F6A1C0F260FFFBA00300390 /* APIManager.swift in Sources */,
 				6F6A1BBB260FE3BF00300390 /* ProfileViewController.swift in Sources */,
