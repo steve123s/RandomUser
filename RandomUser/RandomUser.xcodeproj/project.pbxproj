@@ -14,6 +14,18 @@
 		6F6A1BC3260FE3C200300390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A1BC1260FE3C200300390 /* LaunchScreen.storyboard */; };
 		6F6A1BCE260FE3C200300390 /* RandomUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1BCD260FE3C200300390 /* RandomUserTests.swift */; };
 		6F6A1BD9260FE3C200300390 /* RandomUserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1BD8260FE3C200300390 /* RandomUserUITests.swift */; };
+		6F6A1BF9260FE7FF00300390 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1BF8260FE7FF00300390 /* RandomUser.swift */; };
+		6F6A1C01260FFE2900300390 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C00260FFE2900300390 /* API.swift */; };
+		6F6A1C07260FFFA600300390 /* APIManager+RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C06260FFFA600300390 /* APIManager+RandomUser.swift */; };
+		6F6A1C0F260FFFBA00300390 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C0E260FFFBA00300390 /* APIManager.swift */; };
+		6F6A1C14261000B400300390 /* API+RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C13261000B400300390 /* API+RandomUser.swift */; };
+		6F6A1C19261018F000300390 /* RandomUser+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C18261018F000300390 /* RandomUser+String.swift */; };
+		6F6A1C1E2610190900300390 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C1D2610190900300390 /* Address.swift */; };
+		6F6A1C232610193200300390 /* FullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C222610193200300390 /* FullName.swift */; };
+		6F6A1C292610196200300390 /* RandomUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C282610196200300390 /* RandomUserAPI.swift */; };
+		6F6A1C312610197500300390 /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C302610197500300390 /* Street.swift */; };
+		6F6A1C3926101CFD00300390 /* GetRandomUserResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A1C3826101CFD00300390 /* GetRandomUserResponse.json */; };
+		6F6A1C4126101DBD00300390 /* RandomUserTests+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A1C4026101DBD00300390 /* RandomUserTests+Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		6F6A1BD4260FE3C200300390 /* RandomUserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6A1BD8260FE3C200300390 /* RandomUserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserUITests.swift; sourceTree = "<group>"; };
 		6F6A1BDA260FE3C200300390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6A1BF8260FE7FF00300390 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		6F6A1C00260FFE2900300390 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6F6A1C06260FFFA600300390 /* APIManager+RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIManager+RandomUser.swift"; sourceTree = "<group>"; };
+		6F6A1C0E260FFFBA00300390 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		6F6A1C13261000B400300390 /* API+RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+RandomUser.swift"; sourceTree = "<group>"; };
+		6F6A1C18261018F000300390 /* RandomUser+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUser+String.swift"; sourceTree = "<group>"; };
+		6F6A1C1D2610190900300390 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		6F6A1C222610193200300390 /* FullName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullName.swift; sourceTree = "<group>"; };
+		6F6A1C282610196200300390 /* RandomUserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserAPI.swift; sourceTree = "<group>"; };
+		6F6A1C302610197500300390 /* Street.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
+		6F6A1C3826101CFD00300390 /* GetRandomUserResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetRandomUserResponse.json; sourceTree = "<group>"; };
+		6F6A1C4026101DBD00300390 /* RandomUserTests+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomUserTests+Data.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +137,9 @@
 		6F6A1BCC260FE3C200300390 /* RandomUserTests */ = {
 			isa = PBXGroup;
 			children = (
-				6F6A1BCD260FE3C200300390 /* RandomUserTests.swift */,
+				6F6A1C4D261039E100300390 /* Tests */,
+				6F6A1C4C261039D400300390 /* Extensions */,
+				6F6A1C4B261039B900300390 /* MockData */,
 				6F6A1BCF260FE3C200300390 /* Info.plist */,
 			);
 			path = RandomUserTests;
@@ -155,6 +181,7 @@
 		6F6A1BF5260FE70D00300390 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6F6A1C272610194300300390 /* RandomUserAPI */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +189,9 @@
 		6F6A1BF6260FE71400300390 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				6F6A1C00260FFE2900300390 /* API.swift */,
+				6F6A1C0E260FFFBA00300390 /* APIManager.swift */,
+				6F6A1C05260FFF8E00300390 /* RandomUser */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -169,8 +199,54 @@
 		6F6A1BF7260FE72500300390 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6F6A1C18261018F000300390 /* RandomUser+String.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F6A1C05260FFF8E00300390 /* RandomUser */ = {
+			isa = PBXGroup;
+			children = (
+				6F6A1C06260FFFA600300390 /* APIManager+RandomUser.swift */,
+				6F6A1C13261000B400300390 /* API+RandomUser.swift */,
+			);
+			path = RandomUser;
+			sourceTree = "<group>";
+		};
+		6F6A1C272610194300300390 /* RandomUserAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6F6A1C282610196200300390 /* RandomUserAPI.swift */,
+				6F6A1BF8260FE7FF00300390 /* RandomUser.swift */,
+				6F6A1C222610193200300390 /* FullName.swift */,
+				6F6A1C1D2610190900300390 /* Address.swift */,
+				6F6A1C302610197500300390 /* Street.swift */,
+			);
+			path = RandomUserAPI;
+			sourceTree = "<group>";
+		};
+		6F6A1C4B261039B900300390 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				6F6A1C3826101CFD00300390 /* GetRandomUserResponse.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		6F6A1C4C261039D400300390 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F6A1C4026101DBD00300390 /* RandomUserTests+Data.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F6A1C4D261039E100300390 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6A1BCD260FE3C200300390 /* RandomUserTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6A1C3926101CFD00300390 /* GetRandomUserResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +380,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6A1C1E2610190900300390 /* Address.swift in Sources */,
+				6F6A1C14261000B400300390 /* API+RandomUser.swift in Sources */,
+				6F6A1C0F260FFFBA00300390 /* APIManager.swift in Sources */,
 				6F6A1BBB260FE3BF00300390 /* ViewController.swift in Sources */,
 				6F6A1BB7260FE3BF00300390 /* AppDelegate.swift in Sources */,
+				6F6A1C232610193200300390 /* FullName.swift in Sources */,
+				6F6A1C312610197500300390 /* Street.swift in Sources */,
+				6F6A1C19261018F000300390 /* RandomUser+String.swift in Sources */,
+				6F6A1C292610196200300390 /* RandomUserAPI.swift in Sources */,
+				6F6A1C01260FFE2900300390 /* API.swift in Sources */,
+				6F6A1BF9260FE7FF00300390 /* RandomUser.swift in Sources */,
+				6F6A1C07260FFFA600300390 /* APIManager+RandomUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F6A1BCE260FE3C200300390 /* RandomUserTests.swift in Sources */,
+				6F6A1C4126101DBD00300390 /* RandomUserTests+Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +611,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ62TX5ZW3;
 				INFOPLIST_FILE = RandomUserTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,7 +633,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ62TX5ZW3;
 				INFOPLIST_FILE = RandomUserTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,6 +654,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ62TX5ZW3;
 				INFOPLIST_FILE = RandomUserUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,6 +675,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ62TX5ZW3;
 				INFOPLIST_FILE = RandomUserUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
